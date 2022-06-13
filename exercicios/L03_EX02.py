@@ -1,5 +1,4 @@
 vetor = []
-x = 1
 multiplicacao = 1
 soma = 0
 
