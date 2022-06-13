@@ -1,5 +1,5 @@
-lista = input('insira uma string: ')
-lista2 = input('insira uma string: ')
+lista = input('insira uma string: ').strip()
+lista2 = input('insira uma string: ').strip()
 
 print('-_____-'*32)
 
