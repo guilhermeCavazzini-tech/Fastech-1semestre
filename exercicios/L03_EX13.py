@@ -1,3 +1,5 @@
+# 13) Faça um programa para imprimir:
+
 def exercicio_14(n):
     for c in range(1, n + 1):
         cont = 1

@@ -1,18 +1,19 @@
+# elementos devem ser inteiros). Se as matrizes forem de tamanhos compatíveis para multiplicação,
+# multiplique as matrizes. Imprima as matrizes A, B e a matriz resultante da multiplicação.
 matriz1 = []
-l=int(input('Numero de linhas: '))
-c=int(input('Numero de colunas: '))
+l = int(input('Numero de linhas: '))
+c = int(input('Numero de colunas: '))
 print('\n')
 for i in range(l):
     linha = []
 
-
 for j in range(c):
-    linha.append(int(input('Digite  o valor de [' + str(i) + ','+ str(j) + ']: ')))
+    linha.append(int(input('Digite  o valor de [' + str(i) + ',' + str(j) + ']: ')))
 matriz1.append(linha)
 print('\n')
 matriz2 = []
-l2=int(input('Numero de linhas: '))
-c2=int(input('Numero de colunas: '))
+l2 = int(input('Numero de linhas: '))
+c2 = int(input('Numero de colunas: '))
 print('\n')
 for k in range(l2):
     linha2 = []
@@ -35,4 +36,3 @@ if l == c2:
     print(' resultado é ', C)
 else:
     print("Impossível a multiplicaçã o de matriz")
-
